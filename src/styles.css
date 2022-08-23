@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+}
+.encabezado {
+  background-color: #b4ff9f;
+  text-align: justify;
+  width: auto;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorCuerpo {
+  background-color: #f9ffa4;
+  width: auto;
+  --display: flex;
+}
+.contenedorCuerpo1 {
+  background-color: #a8d6b8;
+  width: auto;
+  height: 200px;
+  display: flex;
+}
+.contenedorCuerpo2 {
+  background-color: #a8d6b8;
+  width: auto;
+  display: flex;
+}
+.contenedorCuerpo3 {
+  background-color: #b4ff9f;
+  --display: flex;
+  width: 700px;
+  height: 800px;
+  padding: 10px;
+  padding-top: 16px;
+  flex-direction: column;
+}
+.contenedorCuerpo4 {
+  display: flex;
+  flex-direction: row;
+}
+.divCostado {
+  background-color: #b4ff9f;
+  width: 700px;
+  height: 800px;
+  --display: flex;
+  flex-direction: row;
+}
+
+.divUnico {
+  background-color: #ffa1a1;
+  justify-content: space-around;
+  width: auto;
+  height: 140px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
+  padding: 10px;
+}
+.divGrandeIzquierdo {
+  background-color: #f6ffa4;
+  justify-content: space-around;
+  width: 600px;
+  height: 500px;
+  border: 2px dashed #e38d7a;
+  margin: 8px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+}
+.divDerechaCentral1 {
+  background-color: #ff8c8c;
+  justify-content: space-around;
+  width: 680px;
+  height: 140px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  flex-direction: column;
+}
+.divDerechaCentral2 {
+  background-color: #ff8c8c;
+  justify-content: space-around;
+  width: 680px;
+  height: 140px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  flex-direction: column;
+}
+
+.divDerechaMasChico1 {
+  background-color: #42c2ff;
+  justify-content: space-around;
+  width: 350px;
+  height: 178px;
+  border: 2px dashed #e38d7a;
+  margin: 8px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  flex-direction: row;
+}
+.divDerechaMasChico2 {
+  background-color: #65c18c;
+  justify-content: space-around;
+  width: 350px;
+  height: 178px;
+  border: 2px dashed #e38d7a;
+  margin: 8px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  flex-direction: row;
+}
